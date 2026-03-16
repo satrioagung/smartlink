@@ -13,11 +13,12 @@ export default async function Home() {
         {/* Profile Header */}
         <div className="text-center space-y-4">
           <div className="w-24 h-24 mx-auto bg-gradient-to-tr from-blue-600 to-indigo-600 rounded-full flex items-center justify-center shadow-xl ring-4 ring-white">
-            <span className="text-4xl font-bold text-white">🔥</span>
+            {/* <span className="text-4xl font-bold text-white">🚀</span> */}
+            <img src="/global.png" alt="Logo" width={100} height={100} />
           </div>
           <div>
-            <h1 className="text-2xl font-bold text-gray-900">My Premium Downloads</h1>
-            <p className="text-gray-500 mt-2 font-medium">Download exclusive files safely & securely</p>
+            <h1 className="text-2xl font-bold text-gray-900">SAMUDAYA</h1>
+            <p className="text-gray-500 mt-2 font-medium">Satria Muda Digdaya | Solusi Digital Anda</p>
           </div>
         </div>
 
@@ -49,7 +50,7 @@ export default async function Home() {
             ))
           )}
         </div>
-        
+
         {/* Footer */}
         <div className="mt-16 text-center text-sm text-gray-400 font-medium">
           Safe & Secure Downloads
