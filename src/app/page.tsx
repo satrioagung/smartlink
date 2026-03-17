@@ -13,7 +13,6 @@ export default async function Home() {
         {/* Profile Header */}
         <div className="text-center space-y-4">
           <div className="w-24 h-24 mx-auto bg-gradient-to-tr from-blue-600 to-indigo-600 rounded-full flex items-center justify-center shadow-xl ring-4 ring-white">
-            {/* <span className="text-4xl font-bold text-white">🚀</span> */}
             <img src="/global.png" alt="Logo" width={100} height={100} />
           </div>
           <div>

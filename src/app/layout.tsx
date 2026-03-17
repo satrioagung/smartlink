@@ -27,6 +27,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <script src="https://quge5.com/88/tag.min.js" data-zone="220780" async data-cfasync="false"></script>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
