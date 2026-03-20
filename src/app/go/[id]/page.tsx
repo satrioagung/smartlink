@@ -39,7 +39,7 @@ export default function GoPage({ params }: { params: Promise<{ id: string }> }) 
     if (loading || error || isReady) return
 
     if (countdown > 0) {
-      const timer = setTimeout(() => setCountdown(countdown - 1), 1000)
+      const timer = setTimeout(() => setCountdown(countdown - 1), 300)
       return () => clearTimeout(timer)
     } else {
         setIsReady(true)
